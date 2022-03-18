@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .bannerTxt{
+    position: absolute;
+    top: 60px;
+    left: 60%;
+
+ }
+ .bannerTxt h1{
+     font-size: 36px;
+     font-style: italic;
+     font-family: cursive;
+     color: #EDB89F;
+ }
+ .bannerTxt h2{
+    font-size: 40px;
+    
+    color: black;
+    font-weight: bolder;
+
+}
+.bannerTxt p{
+    padding-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+    opacity: 0.5;
+}
+img{
+   
+   
+}
+.banner{
+    border: 1px solid white;
+}
+.bannerBtn{
+    background-color: #99755A;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    margin-top: 50px;
+}
+.bannerBtn:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 12px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------
+========================================Product CSS===========================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+.productTitle .txt{
+    font-size: 18px;
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+.txta{
+    font-size: 18px;
+    padding: 0 10px;
+}
+.productTitle{
+    text-align: center;
+}
+.productTitle h1{
+    color: #EDB89F;
+    font-style: italic;
+    font-family: cursive;
+}
+.products img{
+width: 140px;
+height: 150px;
+margin: auto;
+}
+.star{
+    color: lightgray;
+    
+}
+.pTxt{
+    font-size: 18px;
+    color: #99755A;
+    font-weight: 500;
+}
+.pName{
+    font-size: 18px;
+    color: Black;
+    font-weight: 500;
+}
+.customBg{
+    background-color: white;
+}
+
+.productContainer{
+    justify-content: space-between;
+}
+.viewBtn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.viewBtn .bannerBtn{
+    padding: 5px 16px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------
+========================================Product Description CSS===========================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.pDTxt h1{
+    font-size: 36px;
+     font-style: italic;
+     font-family: cursive;
+     color: #EDB89F;
+
+}
+.pDTxt h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bolder;
+}
+.pDTxt p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    opacity: 0.5;
+}
+.pDImg{
+        overflow: hidden; 
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+}
+.pDImg img{
+    transition: transform 1s ease-in;
+}
+.pDImg img:hover{
+    transform: scale(1.07);
+    transition: transform 1s ease-out;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------
+========================================Attached Banner CSS===========================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+
+.cont_size{
+    width: 100%;
+    
+ 
+}
+.attached-banner{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    padding: 20px ;
+   
+    
+    background-image: url('../images/b1.png');
+    background-size: fill;
+   background-attachment: fixed;
+   background-position: 0 71.35px;
+   padding: 3.725rem 0;
+   opacity: 5;
+}
+.attached-banner p{
+    color: rgb(158, 15, 158);
+    font-size: 18px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------
+========================================Testimonial CSS===========================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+.testimonial-section{
+    background-color: transparent;
+    padding-bottom: 100px;
+    
+
+}
+.testimonial-section .carousel-item{
+    margin-top: 1rem;
+    padding: 1rem 5.125rem;
+    background-color: white;
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+
+.testimonial-section .carousel-item img{
+    max-width: 10rem;
+    border-radius: 50%;
+    padding-bottom: auto;
+}
+.testimonial-section  h1{
+    padding-top: 35px;
+   color: #EDB89F;
+    
+}
+.TstP{
+    color: black;
+    opacity: 0.5;
+}
+.carousel-control-prev{
+    height: 20px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #99755A;
+    color:#99755A ;
+    border-color: white;
+
+}
+.carousel-control-prev:hover{
+    
+    background-color: black;
+    color: #fff;
+    border-color: black;
+
+}
+.carousel-control-next{
+    height: 20px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #99755A;
+    color:#99755A;
+    border-color: white;
+
+}
+.carousel-control-next:hover{
+    
+    background-color: black;
+    color: #fff;
+    border-color: black;
+
+}
+
+.reviewpro p{
+    padding-top: 80px;
+    text-align: start;
+    color: black;
+}
+
+
+.homepad{
+    padding-left: 250px;
+}
+.pe{
+    padding-right:10px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------
+========================================About Us CSS===========================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+.back-img{
+
+}
+.Aboutul p{
+    font-size: 16px;
+    color: black;
+    opacity: 0.7;
+    padding-top: 10px;
+}
+.Aboutul{
+    padding-top: 17px;
+    
+}
+.Aboutul ul li{
+  
+    color: black;
+    opacity: 0.5;
+}
+.Aboutul ul{
+margin-top: 20px;
+}
+
+.ourservices h1{
+    font-family: cursive;
+    color: #D6AC95;
+    
+}
+
+.iconn{
+    font-size: 60px;
+    opacity: 0.5;
+    padding-left: 40%;
+   
+}
+.serviceitems h6{
+font-weight: bold;
+align-content: center;
+justify-content: center;
+display: flex;
+margin-top: 10px;
+}
+.Aboutus{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.Aboutus h1{
+    font-weight: bolder;
+}

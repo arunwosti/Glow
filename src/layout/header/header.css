@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topBar{
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+display: flex;
+height: 35px;
+align-items: center;
+justify-content: center;
+
+}
+.topBar p{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.menu{
+    margin-top: 0;
+}
+.glow{
+font-weight: bold;
+font-size: 28px;
+padding-left: 40%;
+margin-right: 70px;
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+.newsletter{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.newsletter p{
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.newsletter .form-control{
+    height: 2.45rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border: 2px solid lightgrey;
+    color: var(--black-color);
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    border-color: white;
+}
+.mainBtn{
+    background-color: #99755A;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    
+   
+}
+.mainBtn:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 12px;
+
+}
